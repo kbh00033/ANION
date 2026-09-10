@@ -1,70 +1,255 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🎬 Netflix Clone
 
-## Available Scripts
+<img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=34&pause=1000&color=E50914&center=true&vCenter=true&width=800&lines=Welcome+to+my+Netflix+Clone+%F0%9F%8E%AC;Built+with+React+%E2%9A%9B%EF%B8%8F;Netflix-inspired+Movie+Streaming+UI;Browse.+Discover.+Enjoy.+%F0%9F%8D%BF" alt="Typing SVG" />
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+<img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:E50914,100:000000&height=140&section=header&text=NETFLIX%20CLONE&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" />
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🍿 About The Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is a **Netflix-inspired frontend application built with React**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The goal was to create a modern streaming-platform experience with a Netflix-style interface, movie categories, a hero banner, movie details, trailers, and a personal **My List** section.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> 🎥 This project is focused on the frontend UI and does not use a backend or database.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ✨ Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🎬 **Netflix-style Navbar**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🌅 **Large Hero Banner**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🔥 **Trending Movies**
 
-## Learn More
+⭐ **Top Rated Movies**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+💥 **Action Movies**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+😂 **Comedy Movies**
 
-### Code Splitting
+▶️ **Movie Trailer Playback**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ℹ️ **Movie Details**
 
-### Analyzing the Bundle Size
+➕ **Add Movies to My List**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+✅ **Remove Movies from My List**
 
-### Making a Progressive Web App
+🎭 **Dedicated Movie Details Page**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🖱️ **Movie Card Hover Effects**
 
-### Advanced Configuration
+📱 **Responsive Design**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🚦 **React Router Navigation**
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🛠️ Tech Stack
 
-### `npm run build` fails to minify
+<div align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Technology | Usage |
+|---|---|
+| ⚛️ React | Frontend UI |
+| 🟨 JavaScript | Application Logic |
+| 🎨 CSS3 | Styling & Responsive Design |
+| 🚦 React Router | Page Navigation |
+| 🎯 Bootstrap Icons | Interface Icons |
+
+</div>
+
+---
+
+# 📸 Screenshots
+
+<div align="center">
+
+## 🏠 Home Page
+
+<img src="src/screenshots/home.png" width="90%" />
+
+<br><br>
+
+## 🎬 Home Page – Movie Rows
+
+<img src="src/screenshots/home1.png" width="90%" />
+
+<br><br>
+
+## 🍿 Home Page – Additional View
+
+<img src="src/screenshots/home2.png" width="90%" />
+
+<br><br>
+
+## 🎥 Movie Details
+
+<img src="src/screenshots/moviedetails.png" width="90%" />
+
+<br><br>
+
+## ❤️ My List
+
+<img src="src/screenshots/mylist.png" width="90%" />
+
+</div>
+
+---
+
+# 🎯 Application Flow
+
+```text
+                    🎬 NETFLIX CLONE
+                           │
+                           ▼
+                      🏠 Home Page
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+       🔥 Trending      ⭐ Top Rated      💥 Action
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                     😂 Comedy Movies
+                           │
+                           ▼
+                       ❤️ My List
+                           │
+                           ▼
+                    🎬 Movie Details
+                           │
+                           ▼
+                     ▶️ Watch Trailer
+
+
+
+📂 Project Structure
+NETFLIX/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── components/
+│   │   ├── Hero.js
+│   │   ├── Hero.css
+│   │   ├── Navbar.js
+│   │   ├── Navbar.css
+│   │   ├── MovieCard.js
+│   │   ├── MovieCard.css
+│   │   ├── MovieRow.js
+│   │   ├── MovieRow.css
+│   │   ├── MovieDetails.js
+│   │   └── MovieDetails.css
+│   │
+│   ├── data/
+│   │   └── movies.js
+│   │
+│   ├── screenshots/
+│   │   ├── home.png
+│   │   ├── home1.png
+│   │   ├── home2.png
+│   │   ├── moviedetails.png
+│   │   └── mylist.png
+│   │
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── bg.png
+├── package.json
+├── package-lock.json
+└── README.md
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/Neahans/NETFLIX.git
+2️⃣ Navigate to the Project
+cd NETFLIX
+3️⃣ Install Dependencies
+npm install
+4️⃣ Start the Application
+npm start
+
+Open your browser and visit:
+
+http://localhost:3000
+💻 Main Components
+🧭 Navbar
+
+Provides navigation between:
+
+Home
+Movies
+Series
+My List
+🌅 Hero Section
+
+Displays a featured movie with:
+
+Movie Title
+Description
+▶ Play
+ℹ More Info
+🎬 Movie Rows
+
+Movies are organized into:
+
+🔥 Trending Now
+⭐ Top Rated
+💥 Action Movies
+😂 Comedy Movies
+❤️ My List
+
+Users can add movies using the + icon and remove them using the check icon.
+
+🎥 Movie Details
+
+Clicking a movie opens a dedicated details page containing:
+
+Poster
+Title
+Year
+Rating
+Genre
+Description
+Trailer
+My List
+🎨 UI Preview
+<div align="center"> <img src="https://readme-typing-svg.demolab.com?font=Arial&weight=700&size=24&pause=1200&color=E50914&center=true&vCenter=true&width=600&lines=🔥+Trending+Now;⭐+Top+Rated;💥+Action+Movies;😂+Comedy+Movies;❤️+My+List" /> </div>
+🌐 Repository
+<div align="center"> <a href="https://github.com/Neahans/NETFLIX"> <img src="https://img.shields.io/badge/View%20on-GitHub-181717?style=for-the-badge&logo=github" /> </a> </div>
+👩‍💻 Author
+<div align="center">
+Neaha N S
+
+💻 Computer Science Graduate
+⚛️ React Developer / Learner
+🐍 Python & Django Developer
+🔐 Cybersecurity Enthusiast
+
+<br> <a href="https://github.com/Neahans"> <img src="https://img.shields.io/badge/GitHub-Neahans-181717?style=for-the-badge&logo=github" /> </a> </div>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:E50914,100:000000&height=120&section=footer&animation=fadeIn" width="100%" />
+⭐ Thank you for visiting!
+
+Made with ❤️ and React ⚛️
+
+</div> ```
+
+The screenshot paths above are based on the files currently visible in your GitHub repository.
