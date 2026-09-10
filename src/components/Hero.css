@@ -1,0 +1,121 @@
+.hero{
+height: 80vh;
+min-height: 500px;
+
+
+background-image:url("C:\Users\Neaha\Django\react\todoapp\bg.png");
+background-size:cover;
+background-position:center;
+position: relative;
+margin-top: 4%;
+
+}
+.play-btn i, .info-btn i {
+  margin-right: 8px;
+}
+
+.hero-overlay{
+    height: 100%;
+    display:flex;
+    align-items: center;
+}
+
+.hero-content{
+    width:500px;
+    margin-left: 60px;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:55px;
+    font-weight:700;
+    margin-bottom: 20px;
+}
+
+.hero-content p{
+    font-size: 17px;
+    line-height:1.6;
+    color:#ddd ;
+    margin-bottom: 25px;
+}
+
+.hero-buttons{
+    display: flex;
+    gap: 12px;
+}
+
+.play-btn,.info-btn{
+    border:none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.play-btn{
+    background: white;
+    color: black;
+}
+
+.play-btn:hover{
+    background:#ddd;
+}
+
+.info-btn{
+    background: rgba(100,100,100,0.8);
+    color: white;
+}
+
+.info-btn:hover{
+    background: rgba(130,130,130,0.8);
+}
+.hero-tag {
+  color: #ddd;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.hero-description {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.play-btn,
+.info-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-info {
+  margin-top: 25px;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  animation: fadeIn 0.3s ease;
+}
+
+.hero-info p {
+  margin-bottom: 10px;
+}
+
+.hero-info p:last-child {
+  margin-bottom: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

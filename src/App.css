@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  margin: 0;
+  background: #111;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.my-list-section {
+  padding: 40px 50px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.my-list-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.empty-list {
+  color: #aaa;
+}
+
+.my-list-container {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  scrollbar-width: none;
+}
+
+.my-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.my-list-card {
+  min-width: 180px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #222;
+}
+
+.my-list-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.my-list-info {
+  padding: 12px;
+}
+
+.my-list-info h3 {
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+.my-list-info button {
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.my-list-info button:hover {
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .my-list-section {
+    padding: 30px 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .my-list-card {
+    min-width: 140px;
+  }
+
+  .my-list-card img {
+    height: 210px;
   }
 }

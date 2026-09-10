@@ -1,0 +1,36 @@
+.movie-row {
+  padding: 30px 50px 10px;
+  color: white;
+}
+
+.movie-row h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.movie-container {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 10px 5px 20px;
+  scrollbar-width: none;
+}
+
+.movie-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .movie-row {
+    padding: 25px 20px 5px;
+  }
+
+  .movie-row h2 {
+    font-size: 20px;
+  }
+
+  .movie-container {
+    gap: 12px;
+  }
+}
