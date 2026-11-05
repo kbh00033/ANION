@@ -3,7 +3,7 @@ height: 80vh;
 min-height: 500px;
 
 
-background-image:url("C:\Users\Neaha\Django\react\todoapp\bg.png");
+background-image: url("../bg.png");
 background-size:cover;
 background-position:center;
 position: relative;
