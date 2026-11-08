@@ -3,6 +3,8 @@ import MovieCard from "./MovieCard";
 import "./MovieRow.css";
 
 function MovieRow({ title, movies, myList = [], toggleMyList }) {
+  if (movies.length === 0) return null;
+
   return (
     <section
       className="movie-row"

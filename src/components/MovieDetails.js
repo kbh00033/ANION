@@ -41,7 +41,7 @@ function MovieDetails({ myList, toggleMyList }) {
   );
 
   const playTrailer = () => {
-    window.open(movie.youtube, "_blank");
+    if (movie.youtube) window.open(movie.youtube, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -74,10 +74,8 @@ function MovieDetails({ myList, toggleMyList }) {
           <h1>{movie.title}</h1>
 
           <div className="movie-meta">
-            <span>{movie.year}</span>
-            <span>•</span>
-            <span>⭐ {movie.rating}</span>
-            <span>•</span>
+            {movie.year && <><span>{movie.year}</span><span>•</span></>}
+            {movie.rating && <><span>⭐ {movie.rating}</span><span>•</span></>}
             <span>{movie.genre}</span>
           </div>
 
@@ -90,9 +88,10 @@ function MovieDetails({ myList, toggleMyList }) {
             <button
               className="details-play"
               onClick={playTrailer}
+              disabled={!movie.youtube}
             >
               <i className="bi bi-play-fill"></i>
-              Play Trailer
+              {movie.youtube ? "바로 시청" : "URL 준비 중"}
             </button>
 
             <button

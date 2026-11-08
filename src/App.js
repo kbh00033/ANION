@@ -48,7 +48,7 @@ function App() {
               <Hero />
 
               <MovieRow
-                title="Trending Now"
+                title="이런 애니는 어떠신가요?"
                 movies={trendingMovies}
                 myList={myList}
                 toggleMyList={toggleMyList}
