@@ -21,19 +21,19 @@ function Navbar() {
       <ul className={`navbar-menu ${menuOpen ? "active" : ""}`}>
 
         <li>
-          <a href="#home">Home</a>
+          <a href="#home">홈</a>
         </li>
 
         <li>
-          <a href="#movies">Movies</a>
+          <a href="#movies">최신 애니</a>
         </li>
 
         <li>
-          <a href="#series">Series</a>
+          <a href="#series">극장판</a>
         </li>
 
         <li>
-          <a href="#my-list">My List</a>
+          <a href="#my-list">내 라이브러리</a>
         </li>
 
       </ul>

@@ -66,7 +66,7 @@ function MovieDetails({ myList, toggleMyList }) {
           onClick={() => navigate(-1)}
         >
           <i className="bi bi-arrow-left"></i>
-          Back
+          뒤로 이동
         </button>
 
         <div className="movie-details-info">
@@ -107,8 +107,8 @@ function MovieDetails({ myList, toggleMyList }) {
               ></i>
 
               {isInMyList
-                ? " Remove from My List"
-                : " Add to My List"}
+                ? " 내 라이브러리에서 제거"
+                : " 내 라이브러리에 추가"}
             </button>
 
           </div>

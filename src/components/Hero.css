@@ -3,7 +3,7 @@ height: 80vh;
 min-height: 500px;
 
 
-background-image: url("../bg.png");
+background-color: #111;
 background-size:cover;
 background-position:center;
 position: relative;

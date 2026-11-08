@@ -54,30 +54,9 @@ function App() {
                 toggleMyList={toggleMyList}
               />
 
-              <MovieRow
-                title="Top Rated"
-                movies={topRatedMovies}
-                myList={myList}
-                toggleMyList={toggleMyList}
-              />
-
-              <MovieRow
-                title="Action Movies"
-                movies={actionMovies}
-                myList={myList}
-                toggleMyList={toggleMyList}
-              />
-
-              <MovieRow
-                title="Comedy Movies"
-                movies={comedyMovies}
-                myList={myList}
-                toggleMyList={toggleMyList}
-              />
-
              
               <section className="my-list-section" id="my-list">
-                <h2>My List</h2>
+                <h2>나의 라이브러리</h2>
 
                 {myList.length === 0 ? (
                   <p className="empty-list">
@@ -102,7 +81,7 @@ function App() {
                             onClick={() => toggleMyList(movie)}
                           >
                             <i className="bi bi-check-circle-fill"></i>
-                            Remove
+                            라이브러리에서 제거
                           </button>
                         </div>
                       </div>
