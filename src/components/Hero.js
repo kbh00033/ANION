@@ -43,7 +43,7 @@ function Hero() {
               onClick={() => setShowInfo(!showInfo)}
             >
               <i className="bi bi-info-circle-fill"></i>
-              More Info
+              자세한 정보
             </button>
 
           </div>

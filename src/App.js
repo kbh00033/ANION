@@ -6,12 +6,7 @@ import Hero from "./components/Hero";
 import MovieRow from "./components/MovieRow";
 import MovieDetails from "./components/MovieDetails";
 
-import {
-  trendingMovies,
-  topRatedMovies,
-  actionMovies,
-  comedyMovies,
-} from "./data/movies";
+import { trendingMovies } from "./data/movies";
 
 import "./App.css";
 
@@ -60,7 +55,7 @@ function App() {
 
                 {myList.length === 0 ? (
                   <p className="empty-list">
-                    No movies added to your list yet.
+                    +버튼을 눌러서 나만의 라이브러리를 만들어 보세요!
                   </p>
                 ) : (
                   <div className="my-list-container">
