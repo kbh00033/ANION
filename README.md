@@ -2,21 +2,6 @@
 
 # 🎬 Netflix Clone
 
-<img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=700&size=34&pause=1000&color=E50914&center=true&vCenter=true&width=800&lines=Welcome+to+my+Netflix+Clone+%F0%9F%8E%AC;Built+with+React+%E2%9A%9B%EF%B8%8F;Netflix-inspired+Movie+Streaming+UI;Browse.+Discover.+Enjoy.+%F0%9F%8D%BF" alt="Typing SVG" />
-
-<br>
-
-<img src="https://img.shields.io/badge/React-18.x-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:E50914,100:000000&height=140&section=header&text=NETFLIX%20CLONE&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=55" width="100%" />
-
-</div>
-
 ---
 
 ## 🍿 About The Project
@@ -253,3 +238,10 @@ Made with ❤️ and React ⚛️
 </div> ```
 
 The screenshot paths above are based on the files currently visible in your GitHub repository.
+
+
+1. 소개
+원본 URL https://github.com/Neahans/NETFLIX
+예전부터 애니메이션만을 다루는 OTT사이트 제작에 관심이 있었음
+이 프로젝트는 넷플릭스 ux를 가볍게 다루고 있는데 내 사이트 제작에 있어서 색채, 레이아웃 배치 등에 있어서 인사이트를 제공하였기 때문에 선택하였음
+
