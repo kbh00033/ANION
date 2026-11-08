@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar">
 
       <div className="navbar-logo">
-        NETFLIX
+        ANION
       </div>
 
       <button
